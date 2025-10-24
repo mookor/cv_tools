@@ -28,9 +28,8 @@ setup(
         "numpy>=1.20.0",
     ],
     entry_points={
-        'console_scripts': [
-            'color-threshold=cv_tools.color_threshold.__main__:main',
+        "console_scripts": [
+            "color-threshold=cv_tools.color_threshold.__main__:main",
         ],
     },
 )
-
